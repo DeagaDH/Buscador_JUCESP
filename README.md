@@ -1,2 +1,4 @@
 # Buscador_JUCESP
-Busca informações de empresas no site do JUCESP, a partir do nome ou NIRE da empresa
+Busca informações de empresas no site do JUCESP, a partir do nome ou NIRE da empresa. O programa não tem interface gráfica, sendo a interação com usuário realizada toda pela linha de comando. Ao executar o script, é solicitado ao usuário um nome ou NIRE de empresa para efetuar a busca. Durante a execução, também é solicitado ao usuário que resolva o CAPTCHA mostrado na página. Os resultados da busca são coletados e, para fins de projeto, são mostrados na linha de comando.
+
+As seguintes bibliotecas são necessárias para execução do script: selenium webdrive manager, BeautifulSoup, numpy, cv2, sys e time.
